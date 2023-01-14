@@ -1,0 +1,1 @@
+This directory contains textures for shading the simulation

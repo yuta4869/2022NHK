@@ -1,0 +1,52 @@
+%%BeginResource: procset Adobe_customcolor 1.0 0
+currentpacking true setpacking
+userdict /Adobe_customcolor 5 dict dup begin put
+/initialize
+{
+/setcustomcolor where
+{
+pop
+}
+{
+Adobe_customcolor begin
+Adobe_customcolor
+{
+dup xcheck
+{
+bind
+} if
+pop pop
+} forall
+end
+Adobe_customcolor begin
+} ifelse
+} def
+/terminate
+{
+currentdict Adobe_customcolor eq
+{
+end
+} if
+} def
+/findcmykcustomcolor
+{
+5 packedarray
+}  def
+/setcustomcolor
+{
+exch
+aload pop pop
+4
+{
+4 index mul 4 1 roll
+} repeat
+5 -1 roll pop
+setcmykcolor
+} def
+/setoverprint
+{
+pop
+} def
+currentdict readonly pop end
+setpacking
+%%EndResource

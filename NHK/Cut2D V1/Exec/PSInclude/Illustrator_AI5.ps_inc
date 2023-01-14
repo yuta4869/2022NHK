@@ -1,0 +1,1294 @@
+%%BeginResource: procset Adobe_Illustrator_AI5 1.2 0
+currentpacking true setpacking
+userdict /Adobe_Illustrator_AI5_vars 107 dict dup begin
+put
+/_eo false def
+/_lp /none def
+/_pf
+{
+} def
+/_ps
+{
+} def
+/_psf
+{
+} def
+/_pss
+{
+} def
+/_pjsf
+{
+} def
+/_pjss
+{
+} def
+/_pola 0 def
+/_doClip 0 def
+/cf currentflat def
+/_lineorientation 0 def
+/_charorientation 0 def
+/_yokoorientation 0 def
+/_tm matrix def
+/_renderStart
+[
+/e0 /r0 /a0 /o0 /e1 /r1 /a1 /i0
+] def
+/_renderEnd
+[
+null null null null /i1 /i1 /i1 /i1
+] def
+/_render -1 def
+/_shift [0 0] def
+/_ax 0 def
+/_ay 0 def
+/_cx 0 def
+/_cy 0 def
+/_leading
+[
+0 0
+] def
+/_ctm matrix def
+/_mtx matrix def
+/_sp 16#020 def
+/_hyphen (-) def
+/_fontSize 0 def
+/_fontAscent 0 def
+/_fontDescent 0 def
+/_fontHeight 0 def
+/_fontRotateAdjust 0 def
+/Ss 256 string def
+Ss 0 (fonts/) putinterval
+/_cnt 0 def
+/_scale [1 1] def
+/_nativeEncoding 0 def
+/_useNativeEncoding 0 def
+/_tempEncode 0 def
+/_pntr 0 def
+/_tDict 2 dict def
+/_hfname 100 string def
+/_hffound false def
+/Tx
+{
+} def
+/Tj
+{
+} def
+/CRender
+{
+} def
+/_AI3_savepage
+{
+} def
+/_gf null def
+/_cf 4 array def
+/_rgbf 3 array def
+/_if null def
+/_of false def
+/_fc
+{
+} def
+/_gs null def
+/_cs 4 array def
+/_rgbs 3 array def
+/_is null def
+/_os false def
+/_sc
+{
+} def
+/_pd 1 dict def
+/_ed 15 dict def
+/_pm matrix def
+/_fm null def
+/_fd null def
+/_fdd null def
+/_sm null def
+/_sd null def
+/_sdd null def
+/_i null def
+/_lobyte 0 def
+/_hibyte 0 def
+/_cproc null def
+/_cscript 0 def
+/_hvax 0 def
+/_hvay 0 def
+/_hvwb 0 def
+/_hvcx 0 def
+/_hvcy 0 def
+/_bitfont null def
+/_bitlobyte 0 def
+/_bithibyte 0 def
+/_bitkey null def
+/_bitdata null def
+/_bitindex 0 def
+/discardSave null def
+/buffer 256 string def
+/beginString null def
+/endString null def
+/endStringLength null def
+/layerCnt 1 def
+/layerCount 1 def
+/perCent (%) 0 get def
+/perCentSeen? false def
+/newBuff null def
+/newBuffButFirst null def
+/newBuffLast null def
+/clipForward? false def
+end
+userdict /Adobe_Illustrator_AI5 known not {
+userdict /Adobe_Illustrator_AI5 95 dict put
+} if
+userdict /Adobe_Illustrator_AI5 get begin
+/initialize
+{
+Adobe_Illustrator_AI5 dup begin
+Adobe_Illustrator_AI5_vars begin
+discardDict
+{
+bind pop pop
+} forall
+dup /nc get begin
+{
+dup xcheck 1 index type /operatortype ne and
+{
+bind
+} if
+pop pop
+} forall
+end
+newpath
+} def
+/terminate
+{
+end
+end
+} def
+/_
+null def
+/ddef
+{
+Adobe_Illustrator_AI5_vars 3 1 roll put
+} def
+/xput
+{
+dup load dup length exch maxlength eq
+{
+dup dup load dup
+length 2 mul dict copy def
+} if
+load begin
+def
+end
+} def
+/npop
+{
+{
+pop
+} repeat
+} def
+/hswj
+{
+dup stringwidth 3 2 roll
+{
+_hvwb eq { exch _hvcx add exch _hvcy add } if
+exch _hvax add exch _hvay add
+} cforall
+} def
+/vswj
+{
+0 0 3 -1 roll
+{
+dup 255 le
+_charorientation 1 eq
+and
+{
+dup cstring stringwidth 5 2 roll
+_hvwb eq { exch _hvcy sub exch _hvcx sub } if
+exch _hvay sub exch _hvax sub
+4 -1 roll sub exch
+3 -1 roll sub exch
+}
+{
+_hvwb eq { exch _hvcy sub exch _hvcx sub } if
+exch _hvay sub exch _hvax sub
+_fontHeight sub
+} ifelse
+} cforall
+} def
+/swj
+{
+6 1 roll
+/_hvay exch ddef
+/_hvax exch ddef
+/_hvwb exch ddef
+/_hvcy exch ddef
+/_hvcx exch ddef
+_lineorientation 0 eq { hswj } { vswj } ifelse
+} def
+/sw
+{
+0 0 0 6 3 roll swj
+} def
+/vjss
+{
+4 1 roll
+{
+dup cstring
+dup length 1 eq
+_charorientation 1 eq
+and
+{
+-90 rotate
+currentpoint
+_fontRotateAdjust add
+moveto
+gsave
+false charpath currentpoint
+5 index setmatrix stroke
+grestore
+_fontRotateAdjust sub
+moveto
+_sp eq
+{
+5 index 5 index rmoveto
+} if
+2 copy rmoveto
+90 rotate
+}
+{
+currentpoint
+_fontHeight sub
+5 index sub
+3 index _sp eq
+{
+9 index sub
+} if
+
+currentpoint
+exch 4 index stringwidth pop 2 div sub
+exch _fontAscent sub
+moveto
+
+gsave
+2 index false charpath
+6 index setmatrix stroke
+grestore
+
+moveto pop pop
+} ifelse
+} cforall
+6 npop
+} def
+/hjss
+{
+4 1 roll
+{
+dup cstring
+gsave
+false charpath currentpoint
+5 index setmatrix stroke
+grestore
+moveto
+_sp eq
+{
+5 index 5 index rmoveto
+} if
+2 copy rmoveto
+} cforall
+6 npop
+} def
+/jss
+{
+_lineorientation 0 eq { hjss } { vjss } ifelse
+} def
+/ss
+{
+0 0 0 7 3 roll jss
+} def
+/vjsp
+{
+4 1 roll
+{
+dup cstring
+dup length 1 eq
+_charorientation 1 eq
+and
+{
+-90 rotate
+currentpoint
+_fontRotateAdjust add
+moveto
+false charpath
+currentpoint
+_fontRotateAdjust sub
+moveto
+_sp eq
+{
+5 index 5 index rmoveto
+} if
+2 copy rmoveto
+90 rotate
+}
+{
+currentpoint
+_fontHeight sub
+5 index sub
+3 index _sp eq
+{
+9 index sub
+} if
+
+currentpoint
+exch 4 index stringwidth pop 2 div sub
+exch _fontAscent sub
+moveto
+
+2 index false charpath
+
+moveto pop pop
+} ifelse
+} cforall
+6 npop
+} def
+/hjsp
+{
+4 1 roll
+{
+dup cstring
+false charpath
+_sp eq
+{
+5 index 5 index rmoveto
+} if
+2 copy rmoveto
+} cforall
+6 npop
+} def
+/jsp
+{
+matrix currentmatrix
+_lineorientation 0 eq {hjsp} {vjsp} ifelse
+} def
+/sp
+{
+matrix currentmatrix
+0 0 0 7 3 roll
+_lineorientation 0 eq {hjsp} {vjsp} ifelse
+} def
+/pl
+{
+transform
+0.25 sub round 0.25 add exch
+0.25 sub round 0.25 add exch
+itransform
+} def
+/setstrokeadjust where
+{
+pop true setstrokeadjust
+/c
+{
+curveto
+} def
+/C
+/c load def
+/v
+{
+currentpoint 6 2 roll curveto
+} def
+/V
+/v load def
+/y
+{
+2 copy curveto
+} def
+/Y
+/y load def
+/l
+{
+lineto
+} def
+/L
+/l load def
+/m
+{
+moveto
+} def
+}
+{
+/c
+{
+pl curveto
+} def
+/C
+/c load def
+/v
+{
+currentpoint 6 2 roll pl curveto
+} def
+/V
+/v load def
+/y
+{
+pl 2 copy curveto
+} def
+/Y
+/y load def
+/l
+{
+pl lineto
+} def
+/L
+/l load def
+/m
+{
+pl moveto
+} def
+} ifelse
+/d
+{
+setdash
+} def
+/cf
+{
+} def
+/i
+{
+dup 0 eq
+{
+pop cf
+} if
+setflat
+} def
+/j
+{
+setlinejoin
+} def
+/J
+{
+setlinecap
+} def
+/M
+{
+setmiterlimit
+} def
+/w
+{
+setlinewidth
+} def
+/XR
+{
+0 ne
+/_eo exch ddef
+} def
+/H
+{
+} def
+/h
+{
+closepath
+} def
+/N
+{
+_pola 0 eq
+{
+_doClip 1 eq
+{
+_eo {eoclip} {clip} ifelse /_doClip 0 ddef
+} if
+newpath
+}
+{
+/CRender
+{
+N
+} ddef
+} ifelse
+} def
+/n
+{
+N
+} def
+/F
+{
+_pola 0 eq
+{
+_doClip 1 eq
+{
+gsave _pf grestore _eo {eoclip} {clip} ifelse newpath /_lp /none ddef _fc
+/_doClip 0 ddef
+}
+{
+_pf
+} ifelse
+}
+{
+/CRender
+{
+F
+} ddef
+} ifelse
+} def
+/f
+{
+closepath
+F
+} def
+/S
+{
+_pola 0 eq
+{
+_doClip 1 eq
+{
+gsave _ps grestore _eo {eoclip} {clip} ifelse newpath /_lp /none ddef _sc
+/_doClip 0 ddef
+}
+{
+_ps
+} ifelse
+}
+{
+/CRender
+{
+S
+} ddef
+} ifelse
+} def
+/s
+{
+closepath
+S
+} def
+/B
+{
+_pola 0 eq
+{
+_doClip 1 eq
+gsave F grestore
+{
+gsave S grestore _eo {eoclip} {clip} ifelse newpath /_lp /none ddef _sc
+/_doClip 0 ddef
+}
+{
+S
+} ifelse
+}
+{
+/CRender
+{
+B
+} ddef
+} ifelse
+} def
+/b
+{
+closepath
+B
+} def
+/W
+{
+/_doClip 1 ddef
+} def
+/*
+{
+count 0 ne
+{
+dup type /stringtype eq
+{
+pop
+} if
+} if
+newpath
+} def
+/u
+{
+} def
+/U
+{
+} def
+/q
+{
+_pola 0 eq
+{
+gsave
+} if
+} def
+/Q
+{
+_pola 0 eq
+{
+grestore
+} if
+} def
+/*u
+{
+_pola 1 add /_pola exch ddef
+} def
+/*U
+{
+_pola 1 sub /_pola exch ddef
+_pola 0 eq
+{
+CRender
+} if
+} def
+/D
+{
+pop
+} def
+/*w
+{
+} def
+/*W
+{
+} def
+/`
+{
+/_i save ddef
+clipForward?
+{
+nulldevice
+} if
+6 1 roll 4 npop
+concat pop
+userdict begin
+/showpage
+{
+} def
+0 setgray
+0 setlinecap
+1 setlinewidth
+0 setlinejoin
+10 setmiterlimit
+[] 0 setdash
+/setstrokeadjust where {pop false setstrokeadjust} if
+newpath
+0 setgray
+false setoverprint
+} def
+/~
+{
+end
+_i restore
+} def
+/O
+{
+0 ne
+/_of exch ddef
+/_lp /none ddef
+} def
+/R
+{
+0 ne
+/_os exch ddef
+/_lp /none ddef
+} def
+/g
+{
+/_gf exch ddef
+/_fc
+{
+_lp /fill ne
+{
+_of setoverprint
+_gf setgray
+/_lp /fill ddef
+} if
+} ddef
+/_pf
+{
+_fc
+_eo {eofill} {fill} ifelse
+} ddef
+/_psf
+{
+_fc
+hvashow
+} ddef
+/_pjsf
+{
+_fc
+hvawidthshow
+} ddef
+/_lp /none ddef
+} def
+/G
+{
+/_gs exch ddef
+/_sc
+{
+_lp /stroke ne
+{
+_os setoverprint
+_gs setgray
+/_lp /stroke ddef
+} if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/k
+{
+_cf astore pop
+/_fc
+{
+_lp /fill ne
+{
+_of setoverprint
+_cf aload pop setcmykcolor
+/_lp /fill ddef
+} if
+} ddef
+/_pf
+{
+_fc
+_eo {eofill} {fill} ifelse
+} ddef
+/_psf
+{
+_fc
+hvashow
+} ddef
+/_pjsf
+{
+_fc
+hvawidthshow
+} ddef
+/_lp /none ddef
+} def
+/K
+{
+_cs astore pop
+/_sc
+{
+_lp /stroke ne
+{
+_os setoverprint
+_cs aload pop setcmykcolor
+/_lp /stroke ddef
+} if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/Xa
+{
+_rgbf astore pop
+/_fc
+{
+_lp /fill ne
+{
+_of setoverprint
+_rgbf aload pop setrgbcolor
+/_lp /fill ddef
+} if
+} ddef
+/_pf
+{
+_fc
+_eo {eofill} {fill} ifelse
+} ddef
+/_psf
+{
+_fc
+hvashow
+} ddef
+/_pjsf
+{
+_fc
+hvawidthshow
+} ddef
+/_lp /none ddef
+} def
+/XA
+{
+_rgbs astore pop
+/_sc
+{
+_lp /stroke ne
+{
+_os setoverprint
+_rgbs aload pop setrgbcolor
+/_lp /stroke ddef
+} if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/_rgbtocmyk
+{
+3
+{
+1 exch sub 3 1 roll
+} repeat
+3 copy 1 4 1 roll
+3
+{
+3 index 2 copy gt
+{
+exch
+} if
+pop 4 1 roll
+} repeat
+pop pop pop
+4 1 roll
+3
+{
+3 index sub
+3 1 roll
+} repeat
+4 -1 roll
+} def
+/Xx
+{
+exch
+/_gf exch ddef
+0 eq
+{
+findcmykcustomcolor
+}
+{
+/findrgbcustomcolor where not {
+4 1 roll _rgbtocmyk
+5 -1 roll
+findcmykcustomcolor
+}
+{
+pop
+findrgbcustomcolor
+} ifelse
+} ifelse
+/_if exch ddef
+/_fc
+{
+_lp /fill ne
+{
+_of setoverprint
+_if _gf 1 exch sub setcustomcolor
+/_lp /fill ddef
+} if
+} ddef
+/_pf
+{
+_fc
+_eo {eofill} {fill} ifelse
+} ddef
+/_psf
+{
+_fc
+hvashow
+} ddef
+/_pjsf
+{
+_fc
+hvawidthshow
+} ddef
+/_lp /none ddef
+} def
+/XX
+{
+exch
+/_gs exch ddef
+0 eq
+{
+findcmykcustomcolor
+}
+{
+/findrgbcustomcolor where not {
+4 1 roll _rgbtocmyk
+5 -1 roll
+findcmykcustomcolor
+}
+{
+pop
+findrgbcustomcolor
+} ifelse
+} ifelse
+/_is exch ddef
+/_sc
+{
+_lp /stroke ne
+{
+_os setoverprint
+_is _gs 1 exch sub setcustomcolor
+/_lp /stroke ddef
+} if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/x
+{
+/_gf exch ddef
+findcmykcustomcolor
+/_if exch ddef
+/_fc
+{
+_lp /fill ne
+{
+_of setoverprint
+_if _gf 1 exch sub setcustomcolor
+/_lp /fill ddef
+} if
+} ddef
+/_pf
+{
+_fc
+_eo {eofill} {fill} ifelse
+} ddef
+/_psf
+{
+_fc
+hvashow
+} ddef
+/_pjsf
+{
+_fc
+hvawidthshow
+} ddef
+/_lp /none ddef
+} def
+/X
+{
+/_gs exch ddef
+findcmykcustomcolor
+/_is exch ddef
+/_sc
+{
+_lp /stroke ne
+{
+_os setoverprint
+_is _gs 1 exch sub setcustomcolor
+/_lp /stroke ddef
+} if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/A
+{
+pop
+} def
+/annotatepage
+{
+userdict /annotatepage 2 copy known {get exec} {pop pop} ifelse
+} def
+/XT {
+pop pop
+} def
+/discard
+{
+save /discardSave exch store
+discardDict begin
+/endString exch store
+gt38?
+{
+2 add
+} if
+load
+stopped
+pop
+end
+discardSave restore
+} bind def
+userdict /discardDict 7 dict dup begin
+put
+/pre38Initialize
+{
+/endStringLength endString length store
+/newBuff buffer 0 endStringLength getinterval store
+/newBuffButFirst newBuff 1 endStringLength 1 sub getinterval store
+/newBuffLast newBuff endStringLength 1 sub 1 getinterval store
+} def
+/shiftBuffer
+{
+newBuff 0 newBuffButFirst putinterval
+newBuffLast 0
+currentfile read not
+{
+stop
+} if
+put
+} def
+0
+{
+pre38Initialize
+mark
+currentfile newBuff readstring exch pop
+{
+{
+newBuff endString eq
+{
+cleartomark stop
+} if
+shiftBuffer
+} loop
+}
+{
+stop
+} ifelse
+} def
+1
+{
+pre38Initialize
+/beginString exch store
+mark
+currentfile newBuff readstring exch pop
+{
+{
+newBuff beginString eq
+{
+/layerCount dup load 1 add store
+}
+{
+newBuff endString eq
+{
+/layerCount dup load 1 sub store
+layerCount 0 eq
+{
+cleartomark stop
+} if
+} if
+} ifelse
+shiftBuffer
+} loop
+} if
+} def
+2
+{
+mark
+{
+currentfile buffer readline not
+{
+stop
+} if
+endString eq
+{
+cleartomark stop
+} if
+} loop
+} def
+3
+{
+/beginString exch store
+/layerCnt 1 store
+mark
+{
+currentfile buffer readline not
+{
+stop
+} if
+dup beginString eq
+{
+pop /layerCnt dup load 1 add store
+}
+{
+endString eq
+{
+layerCnt 1 eq
+{
+cleartomark stop
+}
+{
+/layerCnt dup load 1 sub store
+} ifelse
+} if
+} ifelse
+} loop
+} def
+end
+userdict /clipRenderOff 15 dict dup begin
+put
+{
+/n /N /s /S /f /F /b /B
+}
+{
+{
+_doClip 1 eq
+{
+/_doClip 0 ddef _eo {eoclip} {clip} ifelse
+} if
+newpath
+} def
+} forall
+/Tr /pop load def
+/Bb {} def
+/BB /pop load def
+/Bg {12 npop} def
+/Bm {6 npop} def
+/Bc /Bm load def
+/Bh {4 npop} def
+end
+/Lb
+{
+4 npop
+6 1 roll
+pop
+4 1 roll
+pop pop pop
+0 eq
+{
+0 eq
+{
+(%AI5_BeginLayer) 1 (%AI5_EndLayer--) discard
+}
+{
+
+/clipForward? true def
+
+/Tx /pop load def
+/Tj /pop load def
+
+currentdict end clipRenderOff begin begin
+} ifelse
+}
+{
+0 eq
+{
+save /discardSave exch store
+} if
+} ifelse
+} bind def
+/LB
+{
+discardSave dup null ne
+{
+restore
+}
+{
+pop
+clipForward?
+{
+currentdict
+end
+end
+begin
+
+/clipForward? false ddef
+} if
+} ifelse
+} bind def
+/Pb
+{
+pop pop
+0 (%AI5_EndPalette) discard
+} bind def
+/Np
+{
+0 (%AI5_End_NonPrinting--) discard
+} bind def
+/Ln /pop load def
+/Ap
+/pop load def
+/Ar
+{
+72 exch div
+0 dtransform dup mul exch dup mul add sqrt
+dup 1 lt
+{
+pop 1
+} if
+setflat
+} def
+/Mb
+{
+q
+} def
+/Md
+{
+} def
+/MB
+{
+Q
+} def
+/nc 4 dict def
+nc begin
+/setgray
+{
+pop
+} bind def
+/setcmykcolor
+{
+4 npop
+} bind def
+/setrgbcolor
+{
+3 npop
+} bind def
+/setcustomcolor
+{
+2 npop
+} bind def
+currentdict readonly pop
+end
+end
+setpacking
+%%EndResource

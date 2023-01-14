@@ -1,0 +1,47 @@
+% Fontmap.table - defines a mapping for font names
+% Part of PSTILL, (c) Frank Siegert all rights reserved
+% you need this file if you do not have an original font but only
+% a replacement with a different name
+%
+% This is just an example, pstill maps its fonts according to
+% this file, the syntax is
+%
+% [ /FontNameAsUsedInPostScriptInput /FontNameToBeUsedInstead ]
+%
+% You need to provide the real PostScript names of the fonts
+% pstill -I will automatically rename your fonts to their
+% 'true' names and please do not forget the '/' at the start.
+%
+% Remove the '%' comment to enable a line
+
+% THERE IS A READY MADE fontsub.table FOR USE WITH THE GSFONTS
+% JUST RENAME fontsub_gsfonts.table TO fontsub.table
+%
+% Note: Courier cannot be mapped and must be present!
+%
+
+% The following is an example to map Arial to Helvetica
+
+% [ /Arial /Helvetica ]
+% [ /Arial-Bold /Helvetica-Bold ]
+% [ /Arial-BoldItalic /Helvetica-BoldOblique ]
+% [ /Arial-Italic /Helvetica-Oblique ]
+
+% [ /ArialMT /Helvetica ]
+% [ /Arial-BoldMT /Helvetica-Bold ]
+% [ /Arial-BoldItalicMT /Helvetica-BoldOblique ]
+% [ /Arial-ItalicMT /Helvetica-Oblique ]
+
+% Optional Times mapping
+
+% [ /TimesNewRoman /Times-Roman ]
+% [ /TimesNewRoman-Bold /Times-Bold ]
+% [ /TimesNewRoman-BoldItalic /Times-BoldItalic ]
+% [ /TimesNewRoman-Italic /Times-Italic ]
+
+% This maps Courier-Oblique to Italic
+
+% [ /Courier-Oblique /Courier-Italic ]
+% [ /Courier-BoldOblique /Courier-BoldItalic ]
+
+% You may extend this file as you like

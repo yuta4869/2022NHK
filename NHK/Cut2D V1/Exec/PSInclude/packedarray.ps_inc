@@ -1,0 +1,38 @@
+%%BeginResource: procset Adobe_packedarray 2.0 0
+userdict /Adobe_packedarray 5 dict dup begin put
+/initialize
+{
+/packedarray where
+{
+pop
+}
+{
+Adobe_packedarray begin
+Adobe_packedarray
+{
+dup xcheck
+{
+bind
+} if
+userdict 3 1 roll put
+} forall
+end
+} ifelse
+} def
+/terminate
+{
+} def
+/packedarray
+{
+array astore readonly
+} def
+/setpacking
+{
+pop
+} def
+/currentpacking
+{
+false
+} def
+currentdict readonly pop end
+%%EndResource

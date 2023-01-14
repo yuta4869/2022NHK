@@ -1,0 +1,78 @@
+Please read the following Software License Agreement carefully. You must agree with
+the terms stated in the agreement before using the Vectric Ltd, 
+Cut2D Software (the "Software").
+
+This is a legal agreement between you the user ("User") and Vectric Ltd. Carefully 
+read the following terms and conditions before downloading this software or using
+the software. By downloading or using this software you are agreeing to be bound 
+by the terms and conditions of this Agreement. If you do not agree with these terms, 
+do not download or use this Software.
+
+1. Grant of Licence.
+Vectric grants to the User a limited non-exclusive right and licence to use the 
+software subject to the Terms and Conditions hereof.
+
+2. Authorised Use.
+Evaluation
+If you have obtained an evaluation version of the Software it will only save 
+toolpaths for the Vectric supplied example files.
+
+Single User Licence
+If you have purchased a single user licence you may only use the 
+Software on a single PC at any one time. 
+
+No parts of the Software or other files provided in this package may be reproduced 
+in part or in whole. The User is specifically not entitled to modify, adapt, 
+translate or disassemble the Software.
+
+3. Copyright.
+The Software contains confidential information of Vectric Ltd. and all copyright 
+trademarks and other intellectual property rights in the Software are the exclusive 
+property of Vectric Ltd.
+
+4. Forbidden items
+(1) This copy of the Software, or a backup copy of the Software, must not be used 
+on multiple computers at the same time, on a network, the Internet, or on other 
+computers through any other means of distribution.
+(2) The Software shall not be reverse engineered, decompiled or reverse assembled.
+(3)The rights to the Software cannot be transferred, assigned, lent, loaned or 
+licensed to a third party in any case, regardless of whether this Agreement has
+been terminated or cancelled.
+
+5. Disclaimer of Warranty.
+All express or implied representations and warranties, including any implied 
+warranty of merchantability, fitness for a particular purpose or non-infringement,
+are hereby excluded to fullest extent permitted by law. Vectric does not warrant 
+that the operation of the software will be uninterrupted or error-free.
+
+6. Limitation of Liability.
+Our liability to you for any losses and costs connected with the sale of products
+or services to you shall not exceed the amount you originally paid us for the 
+products or services in respect of which your claim relates.
+
+
+
+In no event will we be liable to you for any indirect or consequential damages 
+even if we have been advised of the possibility of such damages. In particular 
+without limiting the generality of the foregoing we accept no liability for any 
+defective programmes, code or loss or corruption of data made or stored using 
+products obtained from us nor for the costs of recovering or replacing such 
+programmes code or data.
+Nothing in this statement limits our liability to you in the event of death or 
+personal injury resulting from our negligence or based on a proven claim against
+us of fraudulent misrepresentation.
+
+7. Term.
+The term of the licence granted herein shall be perpetual unless terminated by 
+written notice by the User or terminated by either party for material breach. 
+Immediately upon termination of this licence for any reason the User shall 
+cease using the Software in any form.
+
+8. Governing Law
+This Agreement shall be governed by and construed in accordance with English law.
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND
+AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. YOU FURTHER AGREE THAT IT IS
+THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US THAT
+SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY
+OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS
+AGREEMENT.

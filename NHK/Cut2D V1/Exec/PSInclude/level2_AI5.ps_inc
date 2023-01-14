@@ -1,0 +1,211 @@
+%%BeginResource: procset Adobe_level2_AI5 1.2 0
+userdict /Adobe_level2_AI5 26 dict dup begin
+put
+/packedarray where not
+{
+userdict begin
+/packedarray
+{
+array astore readonly
+} bind def
+/setpacking /pop load def
+/currentpacking false def
+end
+0
+} if
+pop
+userdict /defaultpacking currentpacking put true setpacking
+/initialize
+{
+Adobe_level2_AI5 begin
+} bind def
+/terminate
+{
+currentdict Adobe_level2_AI5 eq
+{
+end
+} if
+} bind def
+mark
+/setcustomcolor where not
+{
+/findcmykcustomcolor
+{
+(AI8_CMYK_CustomColor)
+6 packedarray
+} bind def
+/findrgbcustomcolor
+{
+(AI8_RGB_CustomColor)
+5 packedarray
+} bind def
+/setcustomcolor
+{
+exch 
+aload pop dup
+(AI8_CMYK_CustomColor) eq
+{
+	pop pop
+	4
+	{
+		4 index mul
+		4 1 roll
+	} repeat
+	5 -1 roll pop
+	setcmykcolor
+}
+{
+	dup (AI8_RGB_CustomColor) eq
+	{
+		pop pop
+		3
+		{
+			1 exch sub
+			3 index mul 
+			1 exch sub
+			3 1 roll
+		} repeat
+		4 -1 roll pop
+		setrgbcolor
+	}
+	{
+		pop
+		4
+		{
+			4 index mul 4 1 roll
+		} repeat
+		5 -1 roll pop
+		setcmykcolor
+	} ifelse
+} ifelse
+}
+def
+} if
+/setAIseparationgray
+{
+false setoverprint
+0 setgray
+/setseparationgray where{
+pop setseparationgray
+}{
+/setcolorspace where{
+	pop
+	[/Separation (All) /DeviceCMYK {dup dup dup}] setcolorspace
+	1 exch sub setcolor
+}{
+	setgray
+}ifelse
+}ifelse
+} def
+
+/gt38? mark {version cvr cvx exec} stopped {cleartomark true} {38 gt exch pop} ifelse def
+userdict /deviceDPI 72 0 matrix defaultmatrix dtransform dup mul exch dup mul add sqrt put
+userdict /level2?
+systemdict /languagelevel known dup
+{
+pop systemdict /languagelevel get 2 ge
+} if
+put
+/level2ScreenFreq
+{
+begin
+60
+HalftoneType 1 eq
+{
+pop Frequency
+} if
+HalftoneType 2 eq
+{
+pop GrayFrequency
+} if
+HalftoneType 5 eq
+{
+pop Default level2ScreenFreq
+} if
+end
+} bind def
+userdict /currentScreenFreq  
+level2? {currenthalftone level2ScreenFreq} {currentscreen pop pop} ifelse put
+level2? not
+{
+/setcmykcolor where not
+{
+/setcmykcolor
+{
+	exch .11 mul add exch .59 mul add exch .3 mul add
+	1 exch sub setgray
+} def
+} if
+/currentcmykcolor where not
+{
+/currentcmykcolor
+{
+	0 0 0 1 currentgray sub
+} def
+} if
+/setoverprint where not
+{
+/setoverprint /pop load def
+} if
+/selectfont where not
+{
+/selectfont
+{
+	exch findfont exch
+	dup type /arraytype eq
+	{
+		makefont
+	}
+	{
+		scalefont
+	} ifelse
+	setfont
+} bind def
+} if
+/cshow where not
+{
+/cshow
+{
+	[
+	0 0 5 -1 roll aload pop
+	] cvx bind forall
+} bind def
+} if
+} if
+cleartomark
+/anyColor?
+{
+add add add 0 ne
+} bind def
+/testColor
+{
+gsave
+setcmykcolor currentcmykcolor
+grestore
+} bind def
+/testCMYKColorThrough
+{
+testColor anyColor?
+} bind def
+userdict /composite?
+1 0 0 0 testCMYKColorThrough
+0 1 0 0 testCMYKColorThrough
+0 0 1 0 testCMYKColorThrough
+0 0 0 1 testCMYKColorThrough
+and and and
+put
+composite? not
+{
+userdict begin
+gsave
+/cyan? 1 0 0 0 testCMYKColorThrough def
+/magenta? 0 1 0 0 testCMYKColorThrough def
+/yellow? 0 0 1 0 testCMYKColorThrough def
+/black? 0 0 0 1 testCMYKColorThrough def
+grestore
+/isCMYKSep? cyan? magenta? yellow? black? or or or def
+/customColor? isCMYKSep? not def
+end
+} if
+end defaultpacking setpacking
+%%EndResource

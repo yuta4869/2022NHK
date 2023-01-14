@@ -1,0 +1,131 @@
+%%BeginResource: procset Adobe_cshow 2.0 8
+currentpacking true setpacking
+userdict /Adobe_cshow 14 dict dup begin put
+/initialize
+{
+Adobe_cshow begin
+Adobe_cshow
+{
+dup xcheck
+{
+bind
+} if
+pop pop
+} forall
+end
+Adobe_cshow begin
+} def
+/terminate
+{
+currentdict Adobe_cshow eq
+{
+end
+} if
+} def
+/cforall
+{
+/_lobyte 0 ddef
+/_hibyte 0 ddef
+/_cproc exch ddef
+/_cscript currentfont /FontScript known { currentfont /FontScript get } { -1 } ifelse ddef
+{
+/_lobyte exch ddef
+_hibyte 0 eq
+_cscript 1 eq
+_lobyte 129 ge _lobyte 159 le and
+_lobyte 224 ge _lobyte 252 le and or and
+_cscript 2 eq
+_lobyte 161 ge _lobyte 254 le and and
+_cscript 3 eq
+_lobyte 161 ge _lobyte 254 le and and
+_cscript 25 eq
+_lobyte 161 ge _lobyte 254 le and and
+_cscript -1 eq
+or or or or and
+{
+/_hibyte _lobyte ddef
+}
+{
+_hibyte 256 mul _lobyte add
+_cproc
+/_hibyte 0 ddef
+} ifelse
+} forall
+} def
+/cstring
+{
+dup 256 lt
+{
+(s) dup 0 4 3 roll put
+}
+{
+dup 256 idiv exch 256 mod
+(hl) dup dup 0 6 5 roll put 1 4 3 roll put
+} ifelse
+} def
+/clength
+{
+0 exch
+{ 256 lt { 1 } { 2 } ifelse add } cforall
+} def
+/hawidthshow
+{
+{
+dup cstring
+show
+_hvax _hvay rmoveto
+_hvwb eq { _hvcx _hvcy rmoveto } if
+} cforall
+} def
+/vawidthshow
+{
+{
+dup 255 le
+_charorientation 1 eq
+and
+{
+-90 rotate
+0 _fontRotateAdjust rmoveto
+cstring
+_hvcx _hvcy _hvwb _hvax _hvay 6 -1 roll awidthshow
+0 _fontRotateAdjust neg rmoveto
+90 rotate
+}
+{
+currentpoint
+_fontHeight sub
+exch _hvay sub exch _hvax sub
+2 index _hvwb eq { exch _hvcy sub exch _hvcx sub } if
+3 2 roll
+cstring
+dup stringwidth pop 2 div neg _fontAscent neg rmoveto
+show
+moveto
+} ifelse
+} cforall
+} def
+/hvawidthshow
+{
+6 1 roll
+/_hvay exch ddef
+/_hvax exch ddef
+/_hvwb exch ddef
+/_hvcy exch ddef
+/_hvcx exch ddef
+_lineorientation 0 eq { hawidthshow } { vawidthshow } ifelse
+} def
+/hvwidthshow
+{
+0 0 3 -1 roll hvawidthshow
+} def
+/hvashow
+{
+0 0 0 6 -3 roll hvawidthshow
+} def
+/hvshow
+{
+0 0 0 0 0 6 -1 roll hvawidthshow
+} def
+currentdict readonly pop end
+setpacking
+%%EndResource

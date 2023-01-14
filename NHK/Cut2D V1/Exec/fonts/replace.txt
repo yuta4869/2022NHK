@@ -1,0 +1,12 @@
+tahoma.ttf 0
+gothice.vcf
+*
+*empty* 0
+complex.vcf
+*
+‚l‚r ‚oƒSƒVƒbƒN 0
+complex.vcf
+*
+Tahoma 0
+arial.vcf
+*

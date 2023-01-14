@@ -1,0 +1,62 @@
+%%BeginResource: procset Adobe_cmykcolor 1.1 0
+currentpacking true setpacking
+userdict /Adobe_cmykcolor 4 dict dup begin put
+/initialize
+{
+/setcmykcolor where
+{
+pop
+}
+{
+userdict /Adobe_cmykcolor_vars 2 dict dup begin put
+/_setrgbcolor
+/setrgbcolor load def
+/_currentrgbcolor
+/currentrgbcolor load def
+Adobe_cmykcolor begin
+Adobe_cmykcolor
+{
+dup xcheck
+{
+bind
+} if
+pop pop
+} forall
+end
+end
+Adobe_cmykcolor begin
+} ifelse
+} def
+/terminate
+{
+currentdict Adobe_cmykcolor eq
+{
+end
+} if
+} def
+/setcmykcolor
+{
+1 sub 4 1 roll
+3
+{
+3 index add neg dup 0 lt
+{
+pop 0
+} if
+3 1 roll
+} repeat
+Adobe_cmykcolor_vars /_setrgbcolor get exec
+pop
+} def 
+/currentcmykcolor
+{
+Adobe_cmykcolor_vars /_currentrgbcolor get exec
+3
+{
+1 sub neg 3 1 roll
+} repeat
+0
+} def
+currentdict readonly pop end
+setpacking
+%%EndResource
